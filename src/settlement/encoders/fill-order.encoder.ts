@@ -16,7 +16,7 @@ export function encodeFillOrder(params: FillOrderParamsExtended): string {
             params.interaction,
             params.makingAmount,
             params.takingAmount,
-            params.thresholdAmount,
+            params.skipPermitAndThresholdAmount,
             params.target
         )
         .encodeABI()

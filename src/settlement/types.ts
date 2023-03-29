@@ -10,7 +10,8 @@ export type FillOrderParams = {
     signature: string
     makingAmount: string
     takingAmount: string
-    thresholdAmount: string
+    // thresholdAmount: string
+    skipPermitAndThresholdAmount: string
     target: string
 }
 
